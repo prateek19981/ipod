@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +36,169 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*
+{
+  padding: 0%;
+  margin: 0%;
+}
+
+.wheel-container
+{
+   background-color: silver;
+   height:fit-content;
+   width: 250px;
+   margin: 130px auto ;
+   transform: translate(0,-20px);
+   
+
+
+}
+
+.wheel-player
+{
+   background-color: silver;
+   height:100px;
+   width: 100px;
+   margin: 0 auto;
+   border-radius: 100%;
+   border: 50px solid white;
+   transform: translate(0,-30px);
+
+}
+
+.next
+{
+   height: 40px;
+   width: 38px;
+   transform: translate(90px,29px);
+}
+
+.previous
+{
+  height: 40px;
+  width: 38px;
+  transform: translate(-90px,29px)
+             rotate(180deg);
+
+}
+
+.play 
+{
+  height: 40px;
+  width: 38px;
+  transform: translate(0px,60px)
+             
+
+}
+h3.menu
+{
+   transform: translate(0,-120px);
+   color: silver;
+}
+
+.menu-container
+{
+   height: 200px;
+   width: 208px;
+   border: 1px solid black;
+   margin: 0 auto;
+   transform: translate(0,60px);
+   display: flex;
+   padding: 20px; 
+   background-color: white !important;
+     
+}
+
+
+
+
+
+ul{
+  margin-top: 5px;
+  list-style: none;
+  transform: translate(0,0px);
+}
+
+li{
+  padding: 6px;
+  margin: none !important;
+  text-align: left;
+}
+
+.list-active
+{
+   background-color: cornflowerblue;
+   width: 200px;
+   color: white;
+   
+}
+
+.center 
+{
+    background-color: silver;
+    height: 70px;
+    width: 70px;
+    transform: translate(7px,-100px);
+    border-radius: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+a#cn{
+  margin-top: 30px;
+}
+
+#ul-contain
+{
+    
+    transform: translate(-100px,50px);
+}
+
+
+.app-contain
+{
+   background-color: silver;
+   width: 260px;
+   margin: auto;
+   
+   border-radius: 10%;
+   transform: scale(.76) translate(0,-70px);
+              
+   -webkit-box-reflect: below 0px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+               
+
+   
+
+   
+   
+}
+
+#top-logo
+{
+   height: 40px;
+   width: 60px;
+   transform: translate(0,40px);
+   padding: 0% !important;
+   margin: 0% !important;
+}
+
+
+.instruction
+{
+   height: 300px;
+   width: 300px;
+   background-color: black;
+   transform: translate(100px,-620px);
+   border-radius: 20%;
+   box-shadow: 10px 10px silver;
+   color: silver;
+   padding: 30px;
+}
+
+#instruction-ul
+{
+   margin-top: 30px;
 }
